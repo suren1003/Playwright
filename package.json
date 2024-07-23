@@ -1,0 +1,20 @@
+{
+  "name": "playwright_suren",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chromium": "npx playwright test --retries 0 --project=chromium",
+    "test": "npx playwright test babu.spec.ts --project=chromium --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.2",
+    "@types/node": "^20.14.11",
+    "allure-playwright": "^3.0.0-beta.7",
+    "playwright": "^1.45.2",
+    "typescript": "^5.5.3"
+  }
+}
